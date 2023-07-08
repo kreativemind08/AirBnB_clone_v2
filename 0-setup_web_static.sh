@@ -25,7 +25,7 @@ printf %s "server {
     }
 
     location /redirect_me {
-        return 301 https://kmind.com/hbnb_static;
+        return 301 https://kmind.com/;
     }
 
     error_page 404 /404.html;
